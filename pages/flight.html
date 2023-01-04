@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="flight.css">
+  <meta name="viewport" content="width=device-width, initial-sclae=1.0">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Hind:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+    <div id="abc">
+      <nav>
+        <img class="img" src="../resource/logo.png" alt="Logo" >
+
+        <ul>
+          <li><a href="../index.html#algeria">Discover</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Airways</a></li>
+          <li><a href="#">Book Tickets</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+        <div>
+
+  
+  <div id="page1">
+    
+ <img alt="plane" class="plane" src="https://i.ibb.co/52bG3RC/landingpage-assets-0005-plane.png">
+   
+    
+  <div class="right">
+    <h1 class="travel1" >TRAVEL </h1> 
+   <br>
+    <h1 class="travel1" >& BOOK</h1>
+
+     <h4 class="go"> Wherever you go, make yourself at home</h4>
+     
+        <label class="azerty">Email</label>
+        <div class="email">
+     <input type="text" required />
+    </div>
+  <select name="cities" id="cities">
+    <option value="Oran"> Oran</option>
+    <option value="Algiers">Algiers</option>
+    <option value="bousaada"> bousaada </option>
+    <option value="skikda">skikda</option>
+    <option value="biskra">biskra</option>
+    <option value="ilizi"> ilizi</option>
+    <option value="Tizi Ouzou"> Tizi Ouzou</option>
+    <option value="Janet"> Janet</option>
+    <option value="Blida"> Blida</option>
+    <option value="Bouira"> Bouira</option>
+    <option value="tamenrasset"> tamenrasset</option>
+
+  </select>
+
+ 
+         
+  
+       <div class="left2">
+        <label>CHECK-IN DATE</label>
+        <input type="date" id="start" name="trip"
+               value="2023-01-22"
+               min="2023-01-01" max="2023-12-31" />
+         
+         <label>ADULTS</label>
+         <input list="adults" id="adults-number" name="adults-number" />
+
+<datalist id="adults">
+    <option value="1 adult">
+    <option value="2 adults">
+    <option value="3 adults">
+    <option value="+3 adults">
+</datalist>
+    </div>
+
+    <div class ="right2">
+        <label>CHECK-OUT DATE</label>
+        <input type="date" id="end" name="trip"
+               value="2023-01-29"
+               min="2023-01-01" max="2023-12-31"/>
+      <label>CHILDREN</label>
+      <input list="children" id="children-number" name="children-number" />
+
+<datalist id="children">
+    <option value="No children">
+    <option value="1">
+    <option value="2">
+    <option value="3">
+      <option value="+3">
+</datalist>
+    </div>
+       
+      <div class="button">
+       <input type="button" class="btn" value="SUBMIT" /></div>
+       
+   </fieldset></form>
+  </div>
+     </div>
+    
+   
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         $('.menu-toggle').click(function(){
+           $('nav').toggleClass('active')
+         })
+      }) </script>
+</body>
+        </div>
