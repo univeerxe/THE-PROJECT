@@ -1,4 +1,6 @@
-
+input{
+  background-color: rgba(0, 0, 0, 15%);
+}
 .img {
     width: 116px;
     height: 114px;
@@ -127,7 +129,7 @@
   
   #abc {
     width: 100%;
-    height: 28vh;
+    height: 22vh;
    
     background-size: cover;
   }
@@ -443,7 +445,7 @@
     width: 340px;
     max-width: calc(100% - 20px);
     height: 510px;
-    -webkit-transform-style: preserve-3d;
+    -webkit-trans-style: preserve-3d;
     transform-style: preserve-3d;
     perspective: 1000px;
     margin-top: 68px;
@@ -928,7 +930,7 @@
     width: 100%;
     font-size: 20px;
     background-color: #2d2d2d;
-    color: white;
+    color: rgb(15, 0, 0);
     border-radius: 4px;
   }
   
@@ -1074,7 +1076,7 @@ h2{color: white; font-family:'Montserrat', sans-serif;font-size:15px;padding-bot
 .wthreelable label{font-family:'Montserrat', sans-serif;font-size:15px;font-weight:100;}
 span.aitsreturn-lable,span.agilepickup-lable,span.agiledest-lable,span.aitsjourney-lable{float:left;}
 span.colon{float:right;margin-right:15px;font-weight:bold;}
-input[type="text"],input[type="email"],textarea{width:100%;padding:10px 0;font-family:'Roboto', sans-serif;font-size:14px;border:none;outline:none;background:transparent;color:#FFF;border-bottom:1px solid #FFF;letter-spacing:0.5px;}
+input[type="text"],input[type="email"],textarea{width:100%;padding:10px 0;font-family:'Roboto', sans-serif;font-size:14px;border:none;outline:none;background:transparent;color:rgb(0, 0, 0);border-bottom:1px solid #FFF;letter-spacing:0.5px;}
 input.top,textarea{padding-top:0;margin-top:0;}
 input.top{margin-bottom:15px;}
 .wthreeinput label{font-family:'Montserrat', sans-serif;font-size:12px;margin-right:5px; color: white;}
@@ -1096,8 +1098,8 @@ textarea{height:100px;padding:5px 0 10px;}
 .aitssubmitw3ls input[type="submit"]{padding:15px 50px;border:2px solid #EEE;outline:none;background:transparent;color:#FFF;font-family:'Montserrat', sans-serif;font-size:16px;cursor:pointer;}
 .aitssubmitw3ls input[type="submit"]:hover{background-color:#FFF;color:#000;border-color:#FFF;}
 ::-webkit-input-placeholder{color:#FFF;}
-::-moz-placeholder{color:#FFF;}
-::-moz-placeholder{color:#FFF;}
+::-moz-placeholder{color:rgb(0, 0, 0);}
+::-moz-placeholder{color:rgb(0, 0, 0);}
 ::-ms-input-placeholder{color:#FFF;}
 @media screen and (max-width: 1920px){
 .containerw3layouts-agileits{width:34%;}
@@ -1277,6 +1279,8 @@ h2{font-size:13px;}
       }
       .form-all {
         width: 650px;
+        margin-left: 313px;
+
         
       }
       .form-label-left,
@@ -1370,8 +1374,8 @@ h2{font-size:13px;}
       /* | */
       @media screen and (min-width: 768px) {
         .jotform-form {
-        padding: 0px;
-          margin-left: 323px;
+          padding-left: 28px;
+          padding-top: 0px;
         }
       }
       /* | */
@@ -1386,6 +1390,8 @@ h2{font-size:13px;}
       .form-all {
         background-color: rgba(255, 255, 255, 0.93);
         border: 1px solid transparent;
+        margin-left: 313px;
+
       }
       .form-header-group {
         border-color: rgba(230, 230, 230, 0.93);
@@ -1719,11 +1725,15 @@ h2{font-size:13px;}
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center top;
+        margin-left: 313px;
+
       }
       .form-header-group {
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center top;
+        margin-left: 313px;
+
       }
       .form-line {
         margin-top: 6px;
@@ -1827,7 +1837,7 @@ h2{font-size:13px;}
       }
       .form-dropdown {
         border-color: #cccccc;
-        -webkit-appearance: menulist-button;
+        -webkit-appearance: menulist-button;color: #000;
         background-color: rgba(248, 248, 248, 0.58);
       }
       [data-type="control_dropdown"] .form-input,
@@ -2031,6 +2041,7 @@ h2{font-size:13px;}
         .form-address-table select,
         .form-input {
           width: 100%;
+          color:#000;
         }
         div.form-header-group {
           padding: 24px 36px !important;
@@ -2272,6 +2283,7 @@ h2{font-size:13px;}
           .form-captcha input,
           .form-spinner input {
             background-color: undefined;
+            color:#000;
           }
         
           .supernova {
@@ -2315,6 +2327,7 @@ h2{font-size:13px;}
       [data-type="control_dropdown"] .form-dropdown {
           width : 100% !important;
           max-width : none !important;
+          color: #000;
       }
       
       .form-textbox, .form-textarea, .form-dropdown {
@@ -2569,6 +2582,7 @@ h2{font-size:13px;}
       .form-address-table .form-sub-label-container, .form-address-table select {
           width : 100%;
           max-width : 100%;
+          color: #000;
       }
       
       [data-type="control_address"] input[name$="[city]"],
